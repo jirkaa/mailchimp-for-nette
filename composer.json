@@ -1,0 +1,23 @@
+{
+    "name": "jirkaa/mailchimp-for-nette",
+    "description": "Mailchimp API PHP SDK for Nette Framework",
+    "type": "library",
+    "require": {
+        "mailchimp/mailchimp": "^2.0",
+        "nette/di": "~v2.4",
+        "nette/bootstrap": "~v2.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jirka Ancinec",
+            "email": "jirka@ancinec.cz"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Jirkaa\\Mailchimp\\": "src/"
+        }
+    }
+}
