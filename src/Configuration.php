@@ -1,10 +1,12 @@
 <?php
 namespace Jirkaa\Mailchimp;
 
-use Nette\Object;
+use Nette;
 
-class Configuration extends Object
+class Configuration
 {
+	use Nette\SmartObject;
+
 	public $apiKey;
 	public $options;
 	
