@@ -1,10 +1,12 @@
 <?php
 namespace Jirkaa\Mailchimp;
 
-use Nette\Object;
+use Nette;
 
-class Mailchimp extends Object
+class Mailchimp
 {
+	use Nette\SmartObject;
+
 	/** @var Api */
 	private $api;
 	
